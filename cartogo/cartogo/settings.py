@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'cartogo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demo1',
+        'NAME': 'car2go',
         'HOST': 'localhost', #'127.0.0.1'
         'USER': 'root',
         'PASSWORD': 'root',
@@ -111,7 +111,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
+
 
 USE_I18N = True
 
